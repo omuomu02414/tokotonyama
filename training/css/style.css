@@ -129,8 +129,18 @@ nav li {
 }
 
 
-.seasons p {
+p.top-text {
   color: #4488A5;
+  font-size: 1.75rem;
+}
+.seasons span {
+  font-size: 4rem;
+  color: #4488A5;;
+  opacity: 0.3;
+}
+
+p.sub-text {
+  text-align: left;
 }
 
 .facilitys {
