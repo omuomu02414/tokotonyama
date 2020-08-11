@@ -1,0 +1,211 @@
+body{
+  margin:0;
+  padding:0;
+}
+
+header {
+  width: auto;
+  height: 180px;
+  padding: 0 7.9rem 0 3.6rem;
+
+}
+
+header button {
+  position: absolute;
+  right: 7.9rem;
+  top: 40px;
+  width: 13rem;
+  height: 3.0rem;
+  background-color: #C59826;
+  border-radius: 5px;
+  padding: 10.8px 18px;
+  border: none;
+}
+header button a{
+  font-size: 18px;
+  color: #FCFCFC;
+  text-decoration: none;
+}
+
+header img {
+  width: 270px;
+  height: auto;
+}
+
+nav ul{
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  right: 7.9rem;
+  top:90px;
+}
+
+nav li {
+  color: #26292d;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  margin-left: 2.7rem;
+}
+
+
+
+.description-text{
+  background-color: #4488A5;
+  height: 300px;
+}
+
+.description-text::before{
+  content: 'TOKOTN YAMA';
+  opacity: 0.1;
+  font-size: 100px;
+  position: relative;
+  top: 0;
+
+}
+
+.main-visual-text {
+  position: absolute;
+  text-align: center;
+  bottom:10%;
+  right: 0;
+  width: 560px;
+  background-color: #FCFCFC;
+  line-height: 2.2;
+}
+
+.main-text{
+  font-size: 30px;
+}
+
+.sub-text{
+  font-size: 16px;
+}
+
+
+.seasons img {
+  width: 50%;
+  height: 50%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.facility img {
+  width: 50%;
+  height: 50%;
+}
+
+
+.swiper-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  z-index: -1;
+}
+
+.swiper-slide {
+  display: inline-block;
+  position: relative;
+}
+
+.swiper-slide::after {
+  position: absolute;
+  display: block;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+
+}
+
+.swiper-slide img {
+  width: 90%;
+  height: 50vh;
+  margin: 0 5rem;
+  object-fit: cover;
+  text-align: center;
+}
+
+
+.seasons p {
+  color: #4488A5;
+}
+
+.facilitys {
+  display: flex;
+  align-items: baseline;
+  margin: 0 auto;
+}
+
+
+.facility {
+  display: flex;
+  flex-direction: column;
+}
+
+/*map*/
+.areamap {
+  height: 100%;
+  background-color: #e0eaee;
+}
+
+.areamap h1 {
+  color: #FCFCFC;
+  font-size: 100px;
+  text-align: center;
+  margin: 0;
+}
+
+.areamap img{
+  width: 60%;
+  padding: 0 20px;
+  display: block;
+  padding-bottom: 30px;
+  margin: 0 auto;
+}
+
+
+button.areaguide {
+  width: 21rem;
+  height: 5.1rem;
+  text-align:center;
+  width: 13rem;
+  height: 3.0rem;
+  background-color: #4488A5;
+  border-radius: 30px;
+  padding: 10.8px 18px;
+  border: none;
+  margin-bottom: 100px;
+}
+button.areaguide a{
+  font-size: 18px;
+  color: #FCFCFC;
+  text-decoration: none;
+}
+
+
+/*toppage*/
+.top a{
+  color: #26292d;
+  font-size: 24px;
+  text-decoration: none;
+  writing-mode: vertical-lr
+
+}
+
+.footer-inner{
+  margin: 0 8.9rem;
+  padding: 5.4rem 0;
+  display: flex;
+}
+
+footer li {
+  list-style: none;
+}
+
+.footer-inner p {
+  color: gray;
+  font-weight: 400;
+}
